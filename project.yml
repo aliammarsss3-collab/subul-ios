@@ -1,0 +1,26 @@
+name: Subul
+options:
+  bundleIdPrefix: com.aliammar
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    SWIFT_VERSION: "5.0"
+targets:
+  Subul:
+    type: application
+    platform: iOS
+    sources:
+      - Subul
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aliammar.subul
+        PRODUCT_NAME: "سُبُل"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "سُبُل"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.social-networking
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        CODE_SIGN_STYLE: Automatic
+
+
